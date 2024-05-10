@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  padding: max(1vw, 1rem);
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+.header ul {
+  display: flex;
+  gap: max(1vw, 1rem);
+}
+.header ul a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: max(1.3vw, 1.3rem);
+  font-family: arabic;
+}
+.header ul a:hover {
+  color: #A4F7EE;
+}
+.header img {
+  width: max(3vw, 3rem);
+}
+.header .no {
+  background: #FFF;
+}/*# sourceMappingURL=header.css.map */

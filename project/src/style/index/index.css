@@ -1,0 +1,45 @@
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  padding-top: max(10vw, 10rem);
+}
+.landing .effect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+.landing ._2 {
+  position: relative;
+  width: 40%;
+  height: 100vh;
+}
+.landing ._1 {
+  position: relative;
+  width: 40%;
+  height: 100vh;
+}
+.landing .effect {
+  width: max(50vw, 50rem);
+}
+.landing .img_2 {
+  width: max(30vw, 30rem);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  translate: 0 -50%;
+  rotate: 145deg;
+}
+.landing .img_4 {
+  width: max(5vw, 5rem);
+}
+.landing .img_12 {
+  width: max(13vw, 13rem);
+  position: absolute;
+  top: 10%;
+  right: -10%;
+  rotate: 42deg;
+}/*# sourceMappingURL=index.css.map */

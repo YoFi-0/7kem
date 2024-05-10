@@ -1,0 +1,47 @@
+@import "../../style//funcs";
+
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    padding-top: size(10);
+    .effect{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+    }
+    ._2{
+        position: relative;
+        width: 40%;
+        height: 100vh;
+    }
+    ._1{
+        position: relative;
+        width: 40%;
+        height: 100vh;
+    }
+    .effect{
+        width: size(50);
+    }
+    .img_2{
+        width: size(30);
+        position: absolute;
+        top: 50%;
+        left: 0;
+        translate:  0 -50%;
+        rotate:145deg;
+    }
+    .img_4{
+        width: size(5);
+    }
+    .img_12{
+        width: size(13);
+        position: absolute;
+        top: 10%;
+        right: -10%;
+        rotate: 42deg;
+    }
+}
